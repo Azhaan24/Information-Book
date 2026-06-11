@@ -36,7 +36,7 @@ public class FragmentNationalMuseumofChina extends Fragment {
         imageViewMuseumofChina = view.findViewById(R.id.imageViewMuseumofChina);
         progressBarMuseumofChina = view.findViewById(R.id.progressBarMuseumofChina);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg/1920px-62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg").into(imageViewMuseumofChina, new Callback() {
+        Picasso.get().load("https://ak-d.tripcdn.com/images/0102y12000hxkc5n61AF4_W_1440_810_Q80.webp?proc=source%2ftrip").into(imageViewMuseumofChina, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarMuseumofChina.setVisibility(INVISIBLE);

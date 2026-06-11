@@ -36,7 +36,7 @@ public class FragmentColosseum extends Fragment {
         imageViewColosseum = view.findViewById(R.id.imageViewColosseum);
         progressBarColosseum = view.findViewById(R.id.progressBarColosseum);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg").into(imageViewColosseum, new Callback() {
+        Picasso.get().load("https://www.artandobject.com/sites/default/files/styles/gallery_item/public/figure-1_0.jpeg?itok=RSQ7TxFQ").into(imageViewColosseum, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarColosseum.setVisibility(INVISIBLE);

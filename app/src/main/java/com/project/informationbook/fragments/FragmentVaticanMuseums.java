@@ -26,8 +26,6 @@ public class FragmentVaticanMuseums extends Fragment {
     private ImageView imageViewVaticanMuseums;
     private ProgressBar progressBarVaticanMuseums;
 
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -36,7 +34,7 @@ public class FragmentVaticanMuseums extends Fragment {
         imageViewVaticanMuseums = view.findViewById(R.id.imageViewVaticanMuseums);
         progressBarVaticanMuseums = view.findViewById(R.id.progressBarVaticanMuseums);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Museums_in_the_Vatican_City.jpg/960px-Museums_in_the_Vatican_City.jpg").into(imageViewVaticanMuseums, new Callback() {
+        Picasso.get().load("https://colosseum.info/wp-content/uploads/2020/06/Saint-Peters-Basilica_Vatican_Rome_-1024x683.jpg").into(imageViewVaticanMuseums, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarVaticanMuseums.setVisibility(INVISIBLE);

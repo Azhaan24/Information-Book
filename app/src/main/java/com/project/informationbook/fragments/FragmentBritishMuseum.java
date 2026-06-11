@@ -36,7 +36,7 @@ public class FragmentBritishMuseum extends Fragment {
         imageViewBritishMuseum = view.findViewById(R.id.imageViewBritishMuseum);
         progressBarBritishMuseum = view.findViewById(R.id.progressBarBritishMuseum);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/British_Museum_%28aerial%29.jpg/1280px-British_Museum_%28aerial%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail").into(imageViewBritishMuseum, new Callback() {
+        Picasso.get().load("https://imageio.forbes.com/specials-images/imageserve/66ddef666c652b21864d6584/British-Museum-s-Security-In-Question-After-Revelations-Of-Missing-Treasures/0x0.jpg?format=jpg&width=1440").into(imageViewBritishMuseum, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarBritishMuseum.setVisibility(INVISIBLE);

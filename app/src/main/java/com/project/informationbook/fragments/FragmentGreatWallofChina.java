@@ -36,7 +36,7 @@ public class FragmentGreatWallofChina extends Fragment {
         imageViewGreatWallOfChina = view.findViewById(R.id.imageViewWallofChina);
         progressBarGreatWallOfChina = view.findViewById(R.id.progressBarWallofChina);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg").into(imageViewGreatWallOfChina, new Callback() {
+        Picasso.get().load("https://www.classicjourneys.com/wp-content/uploads/2021/07/servletImageServer-729-1290x728.jpeg").into(imageViewGreatWallOfChina, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarGreatWallOfChina.setVisibility(INVISIBLE);

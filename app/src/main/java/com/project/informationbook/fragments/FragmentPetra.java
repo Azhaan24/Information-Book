@@ -36,7 +36,7 @@ public class FragmentPetra extends Fragment {
         imageViewPetra = view.findViewById(R.id.imageViewPetra);
         progressBarPetra = view.findViewById(R.id.progressBarPetra);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Petra_-_286630893.jpg/1280px-Petra_-_286630893.jpg").into(imageViewPetra, new Callback() {
+        Picasso.get().load("https://cdn.britannica.com/24/153524-050-BA9D084B/Al-Dayr-Petra-Jordan.jpg").into(imageViewPetra, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarPetra.setVisibility(INVISIBLE);

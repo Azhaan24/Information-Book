@@ -36,7 +36,7 @@ public class FragmentChichenItza extends Fragment {
         imageViewChichenItza = view.findViewById(R.id.imageViewChichenItza);
         progressBarChichenItza = view.findViewById(R.id.progressBarChichenItza);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/1920px-Chichen_Itza_3.jpg").into(imageViewChichenItza, new Callback() {
+        Picasso.get().load("https://i0.wp.com/www.mexicotours.travel/wp-content/uploads/2022/06/SAT-Mexico-tours-and-Travel-destination-Yucatan-chichen-itza-facts-.webp?fit=900%2C500&ssl=1").into(imageViewChichenItza, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarChichenItza.setVisibility(INVISIBLE);

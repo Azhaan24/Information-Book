@@ -36,7 +36,7 @@ public class FragmentMachuPicchu extends Fragment {
         imageViewMachuPicchu = view.findViewById(R.id.imageViewMachuPicchu);
         progressBarMachuPicchu = view.findViewById(R.id.progressBarMachuPicchu);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/1280px-Machu_Picchu%2C_2023_%28012%29.jpg").into(imageViewMachuPicchu, new Callback() {
+        Picasso.get().load("https://cdn.mos.cms.futurecdn.net/WFJBpzs4J5x3uvbeKdnm3i-1280-80.jpg.webp").into(imageViewMachuPicchu, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarMachuPicchu.setVisibility(INVISIBLE);

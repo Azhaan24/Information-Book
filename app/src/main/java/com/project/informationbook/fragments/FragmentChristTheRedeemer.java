@@ -36,7 +36,7 @@ public class FragmentChristTheRedeemer extends Fragment {
         imageViewChristTheRedeemer = view.findViewById(R.id.imageViewChristtheRedeemer);
         progressBarChristTheRedeemer = view.findViewById(R.id.progressBarChristrtheRedeemer);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/500px-Christ_the_Redeemer_-_Cristo_Redentor.jpg").into(imageViewChristTheRedeemer, new Callback() {
+        Picasso.get().load("https://cdn.britannica.com/54/150754-050-5B93A950/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg").into(imageViewChristTheRedeemer, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarChristTheRedeemer.setVisibility(INVISIBLE);

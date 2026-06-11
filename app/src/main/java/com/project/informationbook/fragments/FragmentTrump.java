@@ -36,7 +36,7 @@ public class FragmentTrump extends Fragment {
         imageViewTrump = view.findViewById(R.id.imageViewTrump);
         progressBarTrump = view.findViewById(R.id.progressBarTrump);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg").into(imageViewTrump, new Callback() {
+        Picasso.get().load("https://www.whitehouse.gov/wp-content/uploads/2025/06/President-Donald-Trump-Official-Presidential-Portrait.png?resize=2048,1152").into(imageViewTrump, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarTrump.setVisibility(INVISIBLE);

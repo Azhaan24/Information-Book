@@ -36,7 +36,7 @@ public class FragmentMetropolitanMuseum extends Fragment {
         imageViewMetropolitanMuseum = view.findViewById(R.id.imageViewMetropolitanMuseum);
         progressBarMetropolitanMuseum = view.findViewById(R.id.progressBarMetropolitanMuseum);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/1920px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg").into(imageViewMetropolitanMuseum, new Callback() {
+        Picasso.get().load("https://coast2coastwithkids.com/wp-content/uploads/2024/12/71F379C6-365A-4AE4-B1B8-09614446C511_1_201_a-1536x1152.jpeg").into(imageViewMetropolitanMuseum, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarMetropolitanMuseum.setVisibility(INVISIBLE);

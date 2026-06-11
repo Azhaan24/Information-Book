@@ -36,7 +36,7 @@ public class FragmentPutin extends Fragment {
         imageViewPutin = view.findViewById(R.id.imageViewPutin);
         progressBarPutin = view.findViewById(R.id.progressBarPutin);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29_2.jpg/960px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29_2.jpg").into(imageViewPutin, new Callback() {
+        Picasso.get().load("https://media.cnn.com/api/v1/images/stellar/prod/2025-12-02t171119z-389173798-rc2h8iaahpg9-rtrmadp-3-ukraine-crisis-putin-witkoff.JPG?c=original&q=w_860,c_fill/f_avif").into(imageViewPutin, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarPutin.setVisibility(INVISIBLE);

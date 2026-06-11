@@ -36,7 +36,7 @@ public class FragmentTajMahal extends Fragment {
         imageViewTajMahal = view.findViewById(R.id.imageViewTajMahal);
         progressBarTajMahal = view.findViewById(R.id.progressBarTajMahal);
 
-        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg").into(imageViewTajMahal, new Callback() {
+        Picasso.get().load("https://static.wixstatic.com/media/055605_65e20a7fcbc54e2e8720adfc2544c35e~mv2.jpg/v1/fill/w_810,h_641,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/taj_new_contant_edited.jpg").into(imageViewTajMahal, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarTajMahal.setVisibility(INVISIBLE);

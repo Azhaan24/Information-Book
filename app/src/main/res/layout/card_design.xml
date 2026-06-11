@@ -37,7 +37,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center"
                 android:text="Seven Wonders of the World"
-                android:textColor="@color/black"
+                android:textColor="@color/text_color"
                 android:textSize="18sp" />
 
 
