@@ -29,10 +29,10 @@ public class ViewPagerAdapterMuseums extends FragmentStateAdapter {
                 fragment = FragmentNationalMuseumofChina.newInstance();
                 break;
             case 2:
-                fragment = FragmentVaticanMuseums.newInstance();
+                fragment = FragmentBritishMuseum.newInstance();
                 break;
             case 3:
-                fragment = FragmentBritishMuseum.newInstance();
+                fragment = FragmentVaticanMuseums.newInstance();
                 break;
             case 4:
                 fragment = FragmentMetropolitanMuseum.newInstance();
